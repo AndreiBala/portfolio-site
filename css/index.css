@@ -1,0 +1,205 @@
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  background-image: url(https://i.imgur.com/tqvUvPg.png) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  background-color: #0b0c10;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0.6em;
+  font-size: 2em;
+  margin-right: 60px;
+}
+
+li {
+  margin-left: 13%;
+}
+
+.fa {
+  color: #66fcf1;
+}
+
+.fa:hover {
+  text-shadow: 1px 1px 2px black, 0 0 1px #66fcf1, 0 0 5px #66fcf1;
+}
+
+
+section {
+  margin-top: 14%;
+}
+
+.rand1 {
+  font-size: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  color: #45a29e;
+}
+
+.rand2 {
+  font-size: 30px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  color: #45a29e;
+}
+
+
+.rand3 {
+  font-size: 33px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  color: #45a29e;
+}
+
+span {
+  margin: 1px -2.5px 2px -2.5px;
+}
+span:hover {
+  color: #66fcf1;
+  cursor: default;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#text {
+  text-align: center;
+  cursor: default;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 44px;
+}
+
+.profiles {
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #45a29e;
+}
+
+.profiles:hover {
+  color: #66fcf1
+}
+
+.home {
+	text-shadow: 1px 1px 2px black, 0 0 19px #66fcf1, 0 0 5px #66fcf1;
+}
+.flat-button2 {
+  line-height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.flat-button {
+  text-decoration: none;
+  color: #66fcf1;
+  border-radius: 3px;
+  padding: 7px 50px;
+  border: 1px solid #66fcf1;
+}
+
+.flat-button:hover {
+  color: #66fcf1;
+	text-shadow: 1px 1px 2px black, 0 0 1px #66fcf1, 0 0 5px #66fcf1;
+	box-shadow: 1px 1px 2px black, 0 0 1px #66fcf1, 0 0 5px #66fcf1;
+}
+
+.w3-animate-opacity {
+	animation:opac 0.8s
+}
+
+img {
+  display: none;
+}
+
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+@media screen and (min-width:1930px) {
+  #shell {
+    margin: auto;
+    max-width: 1925px;
+  }
+}
+
+
+@media (max-width:800px) and (min-width:501px) {
+
+  .flat-button2 {
+    line-height: 130px;
+  }
+
+  p {
+    font-size: 33px;
+  }
+
+  #text {
+    margin-top: 70px;
+  }
+
+  section {
+    margin-top: 16%;
+  }
+
+  li {
+    margin: auto;
+  }
+
+  ul {
+    font-size: 3em;
+    justify-content: center;
+    padding-top: 0.5em;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    max-width: 250px;
+		font-size: 20px;
+  }
+
+  section {
+    margin-top: 35%;
+  }
+
+  li {
+    margin: auto;
+  }
+
+  ul {
+    font-size: 2em;
+    justify-content: center;
+    padding-top: 0.5em;
+    margin: 0;
+  }
+}
